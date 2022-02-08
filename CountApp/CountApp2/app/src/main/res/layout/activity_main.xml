@@ -39,9 +39,11 @@
         android:layout_marginBottom="8dp"
         android:backgroundTint="#2196F3"
         android:text="MINUS"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/clearButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/clearButton"

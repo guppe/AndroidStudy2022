@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">パソコンの購入状況</string>
+    <string name="tv_msg">名前を入力してください</string>
+    <string name="cb_school">大学推奨</string>
+    <string name="cb_noSchool">非大学推奨</string>
+    <string name="rb_male">男</string>
+    <string name="rb_female">女</string>
+    <string-array name="lv_grade">
+        <item>大学1年生</item>
+        <item>大学2年生</item>
+        <item>大学3年生</item>
+        <item>大学4年生</item>
+        <item>大学院生</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="lv_course">
+        <item>機械工学科</item>
+        <item>航空システム工学科</item>
+        <item>ロボティクス学科</item>
+        <item>電気電子工学科</item>
+        <item>情報工学科</item>
+        <item>環境土木工学科</item>
+        <item>メディア情報学科</item>
+        <item>経営情報学科</item>
+        <item>心理科学科</item>
+        <item>建築学科</item>
+        <item>応用化学科</item>
+        <item>応用バイオ学科</item>
+    </string-array>
+</resources>
