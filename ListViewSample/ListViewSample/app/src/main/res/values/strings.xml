@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ListViewSample</string>
+    <string-array name="lv_menu">
+        <item>とまと</item>
+        <item>きゅうり</item>
+        <item>なす</item>
+        <item>たまねぎ</item>
+        <item>おくら</item>
+        <item>さつまいも</item>
+        <item>じゃがいも</item>
+        <item>はくさい</item>
+        <item>だいこん</item>
+        <item>にんじん</item>
+        <item>とうもろこし</item>
+        <item>ぴーまん</item>
+        <item>ねぎ</item>
+        <item>にら</item>
+    </string-array>
+</resources>
