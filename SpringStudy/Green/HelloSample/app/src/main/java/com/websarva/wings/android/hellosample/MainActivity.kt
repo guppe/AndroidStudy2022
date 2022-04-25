@@ -13,16 +13,27 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val clickButton: Button = findViewById(R.id.clickButton)
-        clickButton.setOnClickListener(HelloListener())
+        clickButton.setOnClickListener(Listener())
+
+        val clearButton: Button = findViewById(R.id.clearButton)
+        clearButton.setOnClickListener(Listener())
     }
 
-    private inner class HelloListener : View.OnClickListener{
-        override fun onClick(p0: View?) {
+    private inner class Listener : View.OnClickListener{
+        override fun onClick(view: View) {
             val inputName: TextView = findViewById(R.id.nameEdit)
             val outputName: TextView = findViewById(R.id.nameView)
 
-            val inputStr = inputName.text.toString()
-            outputName.text = inputStr + "さん、こんにちは！"
+            when(view.id){
+                R.id.clickButton -> {
+                    val inputStr = inputName.text.toString()
+                    outputName.text = inputStr + "さん、こんにちは！"
+                }
+                R.id.clearButton -> {
+                    inputName.setText("")
+                    outputName.text = ""
+                }
+            }
         }
     }
 }

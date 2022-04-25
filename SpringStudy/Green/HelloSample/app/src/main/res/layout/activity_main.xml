@@ -36,6 +36,12 @@
             android:layout_height="wrap_content"
             android:text="@string/bt_click" />
 
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_clear" />
+
         <TextView
             android:id="@+id/nameView"
             android:layout_width="match_parent"
