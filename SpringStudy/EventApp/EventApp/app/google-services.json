@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "421953229592",
+    "project_id": "eventapp-e12d5",
+    "storage_bucket": "eventapp-e12d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421953229592:android:3444b755283673e785c46d",
+        "android_client_info": {
+          "package_name": "com.websarva.wings.android.eventapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421953229592-qt5hje8tc1vmmi9ca0imiuh96r8v5iqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.websarva.wings.android.eventapp",
+            "certificate_hash": "2d1d0e06bd5d884dedc78c5dcfd423be62a59292"
+          }
+        },
+        {
+          "client_id": "421953229592-2vbhdllt48u7rtlc9crqf6sp1s2ejtnf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKmvol9YPI6CH8ISIazvB0CKzRuY_yMsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421953229592-2vbhdllt48u7rtlc9crqf6sp1s2ejtnf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
